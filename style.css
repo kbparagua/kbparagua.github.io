@@ -8,7 +8,18 @@ html, body {
   box-sizing: border-box;
 }
 
+a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .container {
+  position: relative;
   margin: auto;
   width: 80%;
   max-width: 970px;
@@ -20,6 +31,7 @@ html, body {
 
 .header {
   overflow: hidden;
+  padding: 25px 25px;
 }
 
 .profile-pic {
@@ -29,7 +41,7 @@ html, body {
 
 .profile-pic img {
   border-radius: 50%;
-  border: solid 1px #ecf0f1;
+  border: solid 1px #333;
 }
 
 .title {
@@ -37,47 +49,89 @@ html, body {
 }
 
 .title h1 {
-  font-size: 70px;
-  margin-bottom: 10px;
+  font-size: 65px;
+  margin: 0px;
 }
 
 .title .subtitle {
-  /*color: #95a5a6;*/
-  color: #16a085;
-  font-size: 35px;
+  color: #7f8c8d;
+  font-size: 32px;
 }
 
+.social {
+  margin-top: 40px;
+}
+
+.social li {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.social li .fa {
+  margin-right: 2px;
+}
 
 .main-content {
   padding-top: 80px;
 }
 
 .section {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .subheader {
+  overflow: hidden;
   text-align: left;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: dotted 1px #ccc;
 }
 
 .subheader h2 {
-  margin-top: 15px;
-  text-transform: uppercase;
+  margin: 0 0 0 10px;
+  float: left;
 }
+
+.subheader .fa {
+  float: left;
+}
+
 
 .items {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-.items li {
+.inline-items li {
   display: inline-block;
-  padding: 15px;
+  padding: 12px;
   margin-right: 5px;
   margin-bottom: 5px;
-  border: solid 1px #ccc;
-  background: #2c3e50;
+  background: #95a5a6;
   color: white;
   border-radius: 5%;
+}
+
+
+.inline-items li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.items .item-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.items .item-description {
+  padding: 10px 0px;
+}
+
+
+.footer {
+  padding-top: 15px;
+  text-align: center;
 }
