@@ -130,8 +130,21 @@ a:hover {
   padding: 10px 0px;
 }
 
+.hero {
+  border-top: solid 2px #333;
+  padding-top: 35px;
+  text-align: right;
+}
 
-.footer {
-  padding-top: 15px;
-  text-align: center;
+.hero-item {
+  margin-bottom: 15px;
+}
+
+.hero-item .fa, .hero-item a {
+  display: inline-block;
+}
+
+
+.hero-item .fa {
+  margin-right: 10px;
 }
