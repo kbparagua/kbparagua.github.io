@@ -21,6 +21,7 @@ a:hover {
   position: relative;
   margin: auto;
   width: 80%;
+  min-width: 350px;
   max-width: 970px;
 
   background: white;
