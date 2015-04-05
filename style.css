@@ -107,10 +107,23 @@ a:hover {
   padding: 12px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background: #ecf0f1;
+  background: #2c3e50;
+  color: white;
   border-radius: 10px;
 }
 
+
+li.high {
+  opacity: 1.0;
+}
+
+li.average {
+  opacity: 0.6;
+}
+
+li.low {
+  opacity: 0.3;
+}
 
 .inline-items li a {
   color: white;
