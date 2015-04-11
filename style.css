@@ -113,6 +113,12 @@ a:hover {
   border-radius: 10px;
 }
 
+.vertical-items li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 
 li.high {
   opacity: 1.0;
