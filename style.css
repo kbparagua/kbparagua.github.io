@@ -1,6 +1,8 @@
 html, body {
-  color: #333;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #839496;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: 'Roboto Mono', monospace;
+  background: #002b36;
 }
 
 * {
@@ -8,7 +10,7 @@ html, body {
 }
 
 a {
-  color: #e74c3c;
+  color: #2aa198;
   text-decoration: none;
 }
 
@@ -23,8 +25,6 @@ a:hover {
   width: 80%;
   min-width: 350px;
   max-width: 970px;
-
-  background: white;
   padding: 25px;
 }
 
@@ -35,40 +35,40 @@ a:hover {
 }
 
 .profile-pic {
-  float: left;
-  margin-right: 40px;
-}
-
-.profile-pic img {
+  margin: auto;
+  background-image: url('./images/test-profile.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   border-radius: 50%;
-  border: solid 1px #333;
+  width: 150px;
+  height: 150px;
+  border: solid 3px #ecf0f1;
 }
 
 .title {
-  float: left;
+  margin: auto;
+  text-align: center;
 }
 
 .title h1 {
-  font-size: 65px;
+  font-size: 40px;
   margin: 0px;
+  color: #268bd2;
 }
 
 .title .subtitle {
-  color: #7f8c8d;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .social {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .social li {
-  margin-right: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
   display: inline-block;
-}
-
-.social li .fa {
-  margin-right: 2px;
 }
 
 .main-content {
@@ -82,18 +82,22 @@ a:hover {
 .subheader {
   overflow: hidden;
   text-align: left;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: dotted 1px #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: dotted 1px #586e75;
 }
 
 .subheader h2 {
   margin: 0 0 0 10px;
   float: left;
+  font-size: 22px;
+  color: transparent;
 }
 
 .subheader .fa {
   float: left;
+  font-size: 22px;
+  margin-top: 3px;
 }
 
 
@@ -108,8 +112,8 @@ a:hover {
   padding: 12px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background: #2c3e50;
-  color: white;
+  background: #073642;
+  color: #2aa198;
   border-radius: 10px;
 }
 
@@ -121,15 +125,16 @@ a:hover {
 
 
 li.high {
-  opacity: 1.0;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 li.average {
-  opacity: 0.6;
+  font-size: 13px;
 }
 
 li.low {
-  opacity: 0.3;
+  font-size: 10px;
 }
 
 .inline-items li a {
@@ -143,26 +148,6 @@ li.low {
   font-weight: bold;
 }
 
-
 .items .item-description {
   padding: 10px 0px;
-}
-
-.hero {
-  border-top: solid 2px #333;
-  padding-top: 35px;
-  text-align: right;
-}
-
-.hero-item {
-  margin-bottom: 15px;
-}
-
-.hero-item .fa, .hero-item a {
-  display: inline-block;
-}
-
-
-.hero-item .fa {
-  margin-right: 10px;
 }
