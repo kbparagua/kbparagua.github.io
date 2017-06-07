@@ -1,8 +1,8 @@
 html, body {
-  color: #839496;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  font-family: 'Roboto Mono', monospace;
-  background: #002b36;
+  color: #95A5A6;
+  font-family: 'Abel', sans-serif;
+  background: ##fcfdff;
+  font-size: 20px;
 }
 
 * {
@@ -10,7 +10,7 @@ html, body {
 }
 
 a {
-  color: #2aa198;
+  color: #2574A9;
   text-decoration: none;
 }
 
@@ -20,134 +20,24 @@ a:hover {
 }
 
 .container {
-  position: relative;
   margin: auto;
-  width: 80%;
-  min-width: 350px;
-  max-width: 970px;
-  padding: 25px;
+  max-width: 600px;
+  padding: 30px;
 }
-
 
 .header {
-  overflow: hidden;
-  padding: 25px 25px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 42px;
 }
 
-.profile-pic {
-  margin: auto;
-  background-image: url('./images/test-profile.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  border: solid 3px #ecf0f1;
-}
-
-.title {
-  margin: auto;
-  text-align: center;
-}
-
-.title h1 {
-  font-size: 40px;
-  margin: 0px;
-  color: #268bd2;
-}
-
-.title .subtitle {
-  font-size: 20px;
-}
-
-.social {
-  margin-top: 20px;
-}
-
-.social li {
-  margin-right: 5px;
-  margin-left: 5px;
-  display: inline-block;
+.header .name {
+  font-weight: bold;
+  color: #34495E;
 }
 
 .main-content {
-  padding-top: 80px;
-}
-
-.section {
-  margin-bottom: 90px;
-}
-
-.subheader {
-  overflow: hidden;
-  text-align: left;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: dotted 1px #586e75;
-}
-
-.subheader h2 {
-  margin: 0 0 0 10px;
-  float: left;
-  font-size: 22px;
-  color: transparent;
-}
-
-.subheader .fa {
-  float: left;
-  font-size: 22px;
-  margin-top: 3px;
-}
-
-
-.items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.inline-items li {
-  display: inline-block;
-  padding: 12px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  background: #073642;
-  color: #2aa198;
-  border-radius: 10px;
-}
-
-.vertical-items li {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-
-li.high {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-li.average {
-  font-size: 13px;
-}
-
-li.low {
-  font-size: 10px;
-}
-
-.inline-items li a {
-  color: white;
-  text-decoration: none;
-}
-
-
-.items .item-title {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.items .item-description {
-  padding: 10px 0px;
+  margin: auto;
+  text-align: justify;
 }
