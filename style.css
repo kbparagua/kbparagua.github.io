@@ -1,8 +1,9 @@
 html, body {
-  color: #95A5A6;
   font-family: 'Abel', sans-serif;
-  background: ##fcfdff;
-  font-size: 20px;
+  font-size: 18px;
+  background: #002b36;
+  /*color: #eee8d5;*/
+  color: #839496;
 }
 
 * {
@@ -10,19 +11,18 @@ html, body {
 }
 
 a {
-  color: #2574A9;
+  color: #268bd2;
   text-decoration: none;
 }
 
 a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
+  opacity: 0.7;
 }
 
 .container {
-  margin: auto;
-  max-width: 600px;
-  padding: 30px;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .header {
@@ -34,7 +34,6 @@ a:hover {
 
 .header .name {
   font-weight: bold;
-  color: #34495E;
 }
 
 .main-content {
